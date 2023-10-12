@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;900&display=swap');
+
+:root {
+    /* /font-size/ */
+    --fs-sm: 14px;
+    --fs-2sm: 16px;
+    --fs-2sm1: 18px;
+    --fs-3sm: 24px;
+    --fs-2md: 36px;
+    --fs-1lg: 60px;
+    --fs-2lg: 72px;
+    --fs-3lg: 80px;
+    --fs-4lg: 88px;
+    --fs-5lg: 157px;
+
+    /* /font-weight/ */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-900: 900;
+
+    /* /font-family/ */
+    --ff-perpetua: 'Perpetua titling MT';
+    --ff-noto: 'noto serif';
+    --ff-modernofbcomp: 'ModernoFBComp';
+
+    /* /colors/ */
+    --color-white: white;
+    --color-red: #f00;
+    --color-yellow: yellow;
+    --color-yellow2: #FFF03F;
+    --color-black: black;
+    --color-green: #00A106;
+    --color-orange: #F53838;
+    --color-grey: #70675F;
+    --color-grey-1: #A59A90;
+    --color-blue: rgb(0, 0, 255);
+}
+
+.ff-modernofbcomp {
+    font-family: var(--ff-modernofbcomp);
+}
+
+.ff-Perpetua {
+    font-family: var(--ff-perpetua);
+}
+
+.ff-noto {
+    font-family: var(--ff-noto);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-2sm {
+    font-size: var(--fs-2sm);
+}
+
+.fs-2sm1 {
+    font-size: var(--fs-2sm1);
+}
+
+.fs-3sm {
+    font-size: var(--fs-3sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-2md {
+    font-size: var(--fs-2md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-1lg {
+    font-size: var(--fs-1lg);
+}
+
+.fs-2lg {
+    font-size: var(--fs-2lg);
+}
+
+.fs-3lg {
+    font-size: var(--fs-3lg);
+}
+
+.fs-4lg {
+    font-size: var(--fs-4lg);
+}
+
+.fs-5lg {
+    font-size: var(--fs-5lg);
+}
+
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-red {
+    color: var(--color-red);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+.color-yellow2 {
+    color: var(--color-yellow2);
+}
+
+.color-grey {
+    color: var(--color-grey);
+}
+
+.color-grey-1 {
+    color: var(--color-grey-1);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.text-perouta {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.min-80 {
+    min-width: 110px;
+}
+
+label[for="icon"] {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .br-md-1 {
+        border-left: 2px solid var(--color-black);
+    }
+
+}
+
+@media (max-width:1400px) {
+    :root {
+        /* /font-size/ */
+        --fs-sm: 14px;
+        --fs-2sm: 16px;
+        --fs-2sm1: 16px;
+        --fs-3sm: 22px;
+        --fs-md: 24px;
+        --fs-2md: 26px;
+        --fs-lg: 52px;
+        --fs-1lg: 55px;
+        --fs-2lg: 60px;
+        --fs-3lg: 72px;
+        --fs-4lg: 80px;
+        --fs-5lg: 140px;
+    }
+}
+
+@media (max-width:1200px) {
+    :root {
+        /* /font-size/ */
+        --fs-sm: 14px;
+        --fs-2sm: 16px;
+        --fs-2sm1: 16px;
+        --fs-3sm: 22px;
+        --fs-md: 24px;
+        --fs-2md: 26px;
+        --fs-lg: 52px;
+        --fs-1lg: 55px;
+        --fs-2lg: 60px;
+        --fs-3lg: 72px;
+        --fs-4lg: 80px;
+        --fs-5lg: 130px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        /* /font-size/ */
+        --fs-sm: 14px;
+        --fs-2sm: 16px;
+        --fs-2sm1: 16px;
+        --fs-3sm: 22px;
+        --fs-md: 24px;
+        --fs-2md: 26px;
+        --fs-lg: 52px;
+        --fs-1lg: 55px;
+        --fs-2lg: 50px;
+        --fs-3lg: 60px;
+        --fs-4lg: 80px;
+        --fs-5lg: 102px;
+    }
+
+    .container2 {
+        padding-left: 30px;
+    }
+
+    .right {
+        padding-right: 0;
+    }
+
+    .left {
+        padding-left: 12px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .border-lg-0 {
+        border: none !important;
+    }
+
+    .bb-lg-1 {
+        border-bottom: 2px solid var(--color-black) !important;
+    }
+}
+
+@media (max-width:800px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* / Full-width containers / */
+    .container2 {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    /* / Make sure that all arrows are pointing leftwards / */
+    .container2::before {
+        left: 60px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* / Make sure all circles are at the same spot / */
+    .left::after,
+    .right::after {
+        left: 24px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        border-left: 2px solid black;
+        padding-top: 20px;
+        background: #FFF;
+        top: 3%;
+        bottom: 4%;
+        left: 7%;
+        margin-left: -3px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    :root {
+        /* /font-size/ */
+        --fs-sm: 14px;
+        --fs-2sm: 16px;
+        --fs-2sm1: 16px;
+        --fs-3sm: 20px;
+        --fs-md: 22px;
+        --fs-2md: 24px;
+        --fs-lg: 48px;
+        --fs-1lg: 50px;
+        --fs-2lg: 46px;
+        --fs-3lg: 50px;
+        --fs-4lg: 74px;
+        --fs-5lg: 76px;
+    }
+
+    .left::after,
+    .right::after {
+        left: 13px;
+    }
+
+    .brr-1,
+    .bll-1 {
+        border: 0 !important;
+    }
+ 
+    label[for="icon"] {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 100;
+        cursor: pointer;
+        right: 1%;
+        top: 17.9%;
+    }
+
+
+    label[for="icon"]>span {
+        width: 100%;
+        background-color: var(--color-black);
+        height: 5px;
+        border-radius: 2px;
+    }
+
+    .mobile-view {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        gap: 20px;
+        top: 0;
+        z-index: 10;
+        transition: all 300ms linear;
+        padding: 0;
+    }
+
+    input[type="checkbox"]:checked+ul {
+        right: 0;
+    } 
+
+    .gap-62 {
+        gap: 10px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    :root {
+        /* /font-size/ */
+        --fs-sm: 14px;
+        --fs-2sm: 14px;
+        --fs-2sm1: 14px;
+        --fs-3sm: 20px;
+        --fs-md: 22px;
+        --fs-2md: 22px;
+        --fs-lg: 40px;
+        --fs-1lg: 42px;
+        --fs-2lg: 40px;
+        --fs-3lg: 45px;
+        --fs-4lg: 60px;
+        --fs-5lg: 50px;
+    }
+
+    .container2 {
+        width: 100%;
+        padding-left: 75px;
+        padding-right: 12px;
+        margin-bottom: 50px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        border-left: 2px solid black;
+        padding-top: 20px;
+        background: #FFF;
+        top: 3%;
+        bottom: 4%;
+        left: 10%;
+        margin-left: -3px;
+    }
+
+    .left::after,
+    .right::after {
+        left: 18px;
+    }
+    .accordion-body{
+        padding: 10px !important;
+    }
+    .accordion-button {
+        padding:10px !important;
+    }
+}
+
+@media (max-width:400px) {
+    :root {
+
+        --fs-sm: 12px;
+        --fs-2sm: 14px;
+        --fs-2sm1: 14px;
+        --fs-3sm: 20px;
+        --fs-md: 20px;
+        --fs-2md: 20px;
+        --fs-lg: 36px;
+        --fs-1lg: 38px;
+        --fs-2lg: 36px;
+        --fs-3lg: 40px;
+        --fs-4lg: 52px;
+        --fs-5lg: 42px;
+    }
+    .accordion-body{
+        padding: 5px !important;
+    }
+    .timeline::after {
+        top: 3%;
+        bottom: 4%;
+    }
+
+    .left::after,
+    .right::after {
+        left: 7px;
+    }
+
+}
